@@ -1,0 +1,20 @@
+akan diberikan data yang berbeda beda setiap orang
+smoothing apa yang terbaik
+forcasting yang terbaik dengan model apa
+
+deteksi stasioner atau tidak (dalam rataan dan ragam) -> ditunjukkan dengan apa secara eksplorasi dan formal (pengujian)
+identifikasi model, model tentatif apa saja yang diperoleh berdasarkan plot caf atau pcaf dan eacf
+dilarang menggunakan fungsi optima arima
+
+mendeteksi menggunakan teori yg sudah dipelajari 
+minimal ada 3 model tentatif 
+pendugaan parameter
+seleksi model dari 3 model tadi mana yang terbaik dilihat dari semua peubah nyata dan nilai AIC atau BIC paling kecil
+diagnostik model -> memenuhi asumsi, jika tidak memenuhi apakah perlu diulang identifikasinya atau melakukan transformasi
+overfitting -> hanya boleh menambahkan ordo salah satu saja tidak boleh berbarengan
+dibandingkan model ori terbaik atau model overfitting
+
+jangan lupa ketika membangun model lakukan spliting data
+1 sampai ts data training -> dibangun sampai proses overfitting, lakukan forcast
+ts sampai t data testing -> validasi dari hasil forcast
+e=atktual-forcast -> dilihat MAPE nya
